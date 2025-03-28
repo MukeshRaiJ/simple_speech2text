@@ -9,19 +9,41 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@picovoice/cobra-web": "^2.0.3",
+    "@picovoice/picovoice-node": "^3.0.3",
+    "@picovoice/web-voice-processor": "^4.0.9",
+    "@radix-ui/react-scroll-area": "^1.2.3",
+    "@radix-ui/react-separator": "^1.1.2",
+    "@radix-ui/react-slot": "^1.1.2",
+    "@ricky0123/vad": "^0.2.4",
+    "@ricky0123/vad-web": "^0.0.22",
+    "axios": "^1.8.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.483.0",
+    "next": "15.2.3",
+    "next-ws": "^2.0.4",
+    "opus-recorder": "^8.0.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.2.3"
+    "recordrtc": "^5.6.2",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "tailwind-merge": "^3.0.2",
+    "tw-animate-css": "^1.2.4",
+    "wav-encoder": "^1.3.0",
+    "wavefile": "^11.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "@types/wav-encoder": "^1.3.3",
     "eslint": "^9",
     "eslint-config-next": "15.2.3",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
